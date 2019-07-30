@@ -26,7 +26,8 @@ SECRET_KEY = '8&v!)ng5bq@%p%+w7n!b1*x(g7fk4t5%&7n*fe!d5e4!_n8#x6'
 DEBUG = True
 
 ALLOWED_HOSTS = ['127.0.0.1',
-                'django-env.mzxsfxyqsn.us-west-2.elasticbeanstalk.com',]
+                'django-env.mzxsfxyqsn.us-west-2.elasticbeanstalk.com',
+                'class-dev.ap-northeast-2.elasticbeanstalk.com',]
 
 
 # Application definition
