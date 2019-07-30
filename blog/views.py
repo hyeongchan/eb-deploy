@@ -3,6 +3,9 @@ from django.utils import timezone
 from .models import Blog
 # Create your views here.
 
+def test(request):
+    return render(request, 'test.html')
+
 def home(request):
     blogs = Blog.objects
     return render(request, 'home.html', {'blogs': blogs})
